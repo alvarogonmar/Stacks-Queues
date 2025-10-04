@@ -33,3 +33,5 @@ class Stack:
             return None
         return self.top.value
 
+    def is_empty(self):
+        return (self.height) == 0
