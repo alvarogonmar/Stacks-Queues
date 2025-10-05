@@ -20,3 +20,6 @@ def use_stack():
     print('\n-- Operación peek --')
     print(f'Top (peek): {s.peek()}')
 
+    # Remover elementos
+    print('\n-- Operaciones pop --')
+    removed = s.pop()
