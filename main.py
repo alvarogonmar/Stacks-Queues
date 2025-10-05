@@ -23,3 +23,5 @@ def use_stack():
     # Remover elementos
     print('\n-- Operaciones pop --')
     removed = s.pop()
+    if removed is None:
+        print('No se pudo remover: el stack está vacío')
