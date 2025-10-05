@@ -14,3 +14,9 @@ def use_stack():
     s.push(30)
     print(f'Se agregó 30 (número en el top ahora: {s.peek()})')
 
+    print(f'Tamaño actual: {s.size()}')
+
+    # Consultar top
+    print('\n-- Operación peek --')
+    print(f'Top (peek): {s.peek()}')
+
