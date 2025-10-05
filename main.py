@@ -10,3 +10,7 @@ def use_stack():
     # Agregar elementos
     print('\n-- Operaciones push --')
     s.push(20)
+    print(f'Se agregó 20 (número en el top ahora: {s.peek()})')
+    s.push(30)
+    print(f'Se agregó 30 (número en el top ahora: {s.peek()})')
+
