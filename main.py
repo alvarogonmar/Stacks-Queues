@@ -43,3 +43,8 @@ def use_stack():
         print('Intento de remover: No se removió nada porque el stack está vacio')
 
 
+
+    print(f'¿Esto vacía?: {s.is_empty()}')
+
+if __name__ == '__main__':
+    use_stack()
