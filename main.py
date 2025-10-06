@@ -33,3 +33,8 @@ def use_stack():
     while not s.is_empty():
         removed = s.pop()
         print(f'Se removió {removed.value} (Size: {s.size()})')
+
+
+    # Intentar pop
+    print('\n-- Pop en stack vacio --')
+    removed = s.pop()
