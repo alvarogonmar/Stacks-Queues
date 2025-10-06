@@ -25,3 +25,6 @@ def use_stack():
     removed = s.pop()
     if removed is None:
         print('No se pudo remover: el stack está vacío')
+    else:
+        print(f'Se removió {removed.value}')
+        print(f'Top después de remover: {s.peek()}')
