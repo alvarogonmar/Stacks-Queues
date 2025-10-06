@@ -38,3 +38,8 @@ def use_stack():
     # Intentar pop
     print('\n-- Pop en stack vacio --')
     removed = s.pop()
+
+    if removed is None:
+        print('Intento de remover: No se removió nada porque el stack está vacio')
+
+
