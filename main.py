@@ -28,3 +28,8 @@ def use_stack():
     else:
         print(f'Se removió {removed.value}')
         print(f'Top después de remover: {s.peek()}')
+
+    # Remover hasta vaciar 
+    while not s.is_empty():
+        removed = s.pop()
+        print(f'Se removió {removed.value} (Size: {s.size()})')
