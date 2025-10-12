@@ -6,3 +6,4 @@ class Stack:
         self.len = 0
     
     def push(self, element):
+        self.stack.append(element)
