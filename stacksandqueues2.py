@@ -8,3 +8,5 @@ class Stack:
     def push(self, element):
         self.stack.append(element)
         self.len += 1
+
+    def pop(self):
