@@ -13,3 +13,5 @@ class Stack:
         element = self.stack.pop()
         self.len -= 1
         return element
+
+    def peek(self):
