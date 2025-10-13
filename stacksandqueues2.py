@@ -12,3 +12,4 @@ class Stack:
     def pop(self):
         element = self.stack.pop()
         self.len -= 1
+        return element
