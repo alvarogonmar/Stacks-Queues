@@ -10,3 +10,4 @@ class Stack:
         self.len += 1
 
     def pop(self):
+        element = self.stack.pop()
