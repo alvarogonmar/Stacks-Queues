@@ -15,3 +15,4 @@ class Stack:
         return element
 
     def peek(self):
+        return self.stack[-1]
