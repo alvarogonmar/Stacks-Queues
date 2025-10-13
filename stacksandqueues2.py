@@ -22,3 +22,6 @@ class Stack:
 
     def size(self):
         return self.len
+
+
+class Queue:
