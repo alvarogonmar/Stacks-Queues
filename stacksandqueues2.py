@@ -40,3 +40,4 @@ class Queue:
         self.len += 1
 
     def dequeue(self):
+        if self.is_empty():         # verifica si la cola esta vacia
