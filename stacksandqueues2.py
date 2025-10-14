@@ -30,3 +30,4 @@ class Stack:
         return self.len
 
 
+class Queue:
