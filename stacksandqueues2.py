@@ -36,3 +36,4 @@ class Queue:
         self.len = 0
     
     def enqueue(self, element):
+        self.queue.append(element)
