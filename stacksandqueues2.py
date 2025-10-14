@@ -10,11 +10,17 @@ class Stack:
         self.len += 1
 
     def pop(self):
+        if self.is_empty():         # verifica si la pila esta vacia
+            print("El stack esta vacio, no se puede hacer pop")
+            return None
         element = self.stack.pop()
         self.len -= 1
         return element
 
     def peek(self):
+        if self.is_empty():         # verifica si la pila esta vacia
+            print("El stack esta vacio, no hay elemento para peek")
+            return None
         return self.stack[-1]
 
     def is_empty(self):
@@ -24,4 +30,3 @@ class Stack:
         return self.len
 
 
-class Queue:
