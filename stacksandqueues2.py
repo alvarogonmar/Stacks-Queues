@@ -39,3 +39,4 @@ class Queue:
         self.queue.append(element)
         self.len += 1
 
+    def dequeue(self):
