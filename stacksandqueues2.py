@@ -34,3 +34,5 @@ class Queue:
     def __init__(self):
         self.queue = deque()
         self.len = 0
+    
+    def enqueue(self, element):
