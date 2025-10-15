@@ -42,3 +42,4 @@ class Queue:
     def dequeue(self):
         if self.is_empty():         # verifica si la cola esta vacia
             print("La cola esta vacia, no se puede hacer dequeue")
+            return None
