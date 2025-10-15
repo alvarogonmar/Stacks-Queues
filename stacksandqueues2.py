@@ -48,3 +48,4 @@ class Queue:
         return element
 
     def front(self):
+        if self.is_empty():         # verifica si la cola esta vacia
