@@ -49,3 +49,4 @@ class Queue:
 
     def front(self):
         if self.is_empty():         # verifica si la cola esta vacia
+            print("La cola esta vacia, no hay elemento en front")
