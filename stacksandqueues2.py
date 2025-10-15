@@ -46,3 +46,5 @@ class Queue:
         element = self.queue.popleft()
         self.len -= 1
         return element
+
+    def front(self):
