@@ -44,3 +44,4 @@ class Queue:
             print("La cola esta vacia, no se puede hacer dequeue")
             return None
         element = self.queue.popleft()
+        self.len -= 1
