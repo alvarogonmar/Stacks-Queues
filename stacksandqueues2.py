@@ -45,3 +45,4 @@ class Queue:
             return None
         element = self.queue.popleft()
         self.len -= 1
+        return element
