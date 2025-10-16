@@ -52,3 +52,5 @@ class Queue:
             print("La cola esta vacia, no hay elemento en front")
             return None
         return self.queue[0]
+
+    def is_empty(self):
