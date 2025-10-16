@@ -57,3 +57,4 @@ class Queue:
         return len(self.queue) == 0
 
     def size(self):
+        return self.len
