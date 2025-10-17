@@ -19,3 +19,6 @@ if __name__ == "__main__":
     print("Elementos en el stack:", stack.stack)
     print("Tamaño actual:", stack.size())
     print("Elemento superior (peek):", stack.peek())
+
+    # Eliminar elementos
+    print("Elemento eliminado (pop):", stack.pop())
