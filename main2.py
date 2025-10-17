@@ -18,3 +18,4 @@ if __name__ == "__main__":
     stack.push(30)
     print("Elementos en el stack:", stack.stack)
     print("Tamaño actual:", stack.size())
+    print("Elemento superior (peek):", stack.peek())
