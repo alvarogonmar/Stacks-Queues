@@ -15,3 +15,4 @@ if __name__ == "__main__":
     # Agregar elementos
     stack.push(10)
     stack.push(20)
+    stack.push(30)
