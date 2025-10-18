@@ -27,3 +27,4 @@ if __name__ == "__main__":
     print("Tamaño final:", stack.size())
 
     print("\n=== Pruebas con la clase Queue ===")
+    queue = Queue()
