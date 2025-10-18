@@ -28,3 +28,6 @@ if __name__ == "__main__":
 
     print("\n=== Pruebas con la clase Queue ===")
     queue = Queue()
+
+    # Revisar si esta vacia al inicio
+    print("¿Está vacía?", queue.is_empty())
