@@ -31,3 +31,6 @@ if __name__ == "__main__":
 
     # Revisar si esta vacia al inicio
     print("¿Está vacía?", queue.is_empty())
+
+    # Probar dequeue y front cuando la cola esta vacia
+    print("Intentando dequeue en cola vacia:", queue.dequeue())
