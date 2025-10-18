@@ -23,3 +23,4 @@ if __name__ == "__main__":
     # Eliminar elementos
     print("Elemento eliminado (pop):", stack.pop())
     print("Después de hacer pop:", stack.stack)
+    print("¿Está vacío?", stack.is_empty())
