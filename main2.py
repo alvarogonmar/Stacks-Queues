@@ -35,3 +35,6 @@ if __name__ == "__main__":
     # Probar dequeue y front cuando la cola esta vacia
     print("Intentando dequeue en cola vacia:", queue.dequeue())
     print("Intentando front en cola vacia:", queue.front())
+
+    # Agregar elementos
+    queue.enqueue("A")
