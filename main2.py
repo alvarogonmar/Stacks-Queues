@@ -25,3 +25,5 @@ if __name__ == "__main__":
     print("Después de hacer pop:", stack.stack)
     print("¿Está vacío?", stack.is_empty())
     print("Tamaño final:", stack.size())
+
+    print("\n=== Pruebas con la clase Queue ===")
