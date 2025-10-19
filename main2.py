@@ -47,3 +47,4 @@ if __name__ == "__main__":
     # Eliminar elementos
     print("Elemento eliminado (dequeue):", queue.dequeue())
     print("Después de hacer dequeue:", list(queue.queue))
+    print("¿Está vacía?", queue.is_empty())
