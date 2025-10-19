@@ -39,3 +39,4 @@ if __name__ == "__main__":
     # Agregar elementos
     queue.enqueue("A")
     queue.enqueue("B")
+    queue.enqueue("C")
