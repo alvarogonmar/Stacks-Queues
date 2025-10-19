@@ -40,3 +40,4 @@ if __name__ == "__main__":
     queue.enqueue("A")
     queue.enqueue("B")
     queue.enqueue("C")
+    print("Elementos en la cola:", list(queue.queue))
