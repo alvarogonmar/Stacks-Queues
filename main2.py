@@ -48,3 +48,4 @@ if __name__ == "__main__":
     print("Elemento eliminado (dequeue):", queue.dequeue())
     print("Después de hacer dequeue:", list(queue.queue))
     print("¿Está vacía?", queue.is_empty())
+    print("Tamaño final:", queue.size())
