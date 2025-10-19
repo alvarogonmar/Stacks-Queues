@@ -6,7 +6,7 @@ if __name__ == "__main__":
     stack = Stack()
 
     # Revisar si esta vacia al inicio
-    print("¿Está vacío?", stack.is_empty())
+    print("¿Está vacío?", stack.is_empty())  # True
 
     # Probar pop y peek cuando la pila esta vacia
     print("Intentando pop en stack vacio:", stack.pop())
