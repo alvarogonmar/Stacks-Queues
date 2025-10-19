@@ -9,7 +9,7 @@ if __name__ == "__main__":
     print("¿Está vacío?", stack.is_empty())  # True
 
     # Probar pop y peek cuando la pila esta vacia
-    print("Intentando pop en stack vacio:", stack.pop())
+    print("Intentando pop en stack vacio:", stack.pop()) # None
     print("Intentando peek en stack vacio:", stack.peek())
 
     # Agregar elementos
