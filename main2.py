@@ -43,3 +43,6 @@ if __name__ == "__main__":
     print("Elementos en la cola:", list(queue.queue))
     print("Tamaño actual:", queue.size())
     print("Elemento al frente:", queue.front())
+
+    # Eliminar elementos
+    print("Elemento eliminado (dequeue):", queue.dequeue())
